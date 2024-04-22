@@ -1,0 +1,491 @@
+#Hero{
+    background-image: url(./pngtree-man-taking-a-photo-with-a-camera-picture-image_3178614.jpeg);
+    background-repeat: no-repeat;
+     background-size: cover;
+    /* height: 100vh; */
+    padding-bottom: 3%;
+    opacity: 1;
+}
+
+
+body li, a{
+    color: white;
+    text-decoration: none;
+    list-style: none;
+}
+
+body li, a:hover{
+   color: rgb(8, 215, 222);
+}
+
+.logo h1{
+    color: white;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+     margin: 0% 7%;
+    
+    
+}
+
+@media screen and (max-width:580px){
+    .navbar{
+        display: block;
+   
+}
+
+}
+
+
+
+
+    
+.link ul{
+    display: flex;
+    gap: 30px;
+
+}
+
+
+
+
+.para{
+    text-align: center;
+    color: white;
+    padding-top: 8%;
+}
+
+.para button{
+    background-color: transparent;
+    padding: 6px 13px;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    border: 1.5px solid white;
+    border-radius: 25px;
+
+}
+.para button:hover{
+    color: rgb(8, 215, 222);
+}
+
+.btn{
+    text-align: center;
+    padding-top: 5%;
+
+}
+
+.btn button{
+    justify-content: center;
+    background-color: transparent;
+    padding: 6px 13px;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    border: 1.5px solid white;
+    border-radius: 25px;
+     
+}
+
+.btn button:hover{
+    color: rgb(8, 215, 222);
+}
+
+    
+#nero{
+
+    padding: 3% 2%;
+   display: flex; 
+   gap: 40px;
+   justify-content:space-between;
+
+
+   
+}
+
+#nero img{
+    width: 100%;
+}
+
+@media screen  and (max-width:780px){
+    #nero{
+        display: block; 
+        gap: 40px;
+    }
+      
+ }
+
+
+
+ 
+
+#nero i{
+
+    padding: 7px 10px;
+    border: 1px solid black;
+    border-radius: 100%;
+}
+
+#nero i:hover{
+    background-color: transparent;
+    color: rgb(222, 26, 26);
+    cursor: pointer;
+}
+
+#zero{
+    background-color: rgb(245, 245, 245);
+   
+}
+
+#zero,text1{
+    text-align: center;
+    padding: 4%;
+}
+
+.cards{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    gap: 10%;
+ 
+  
+
+}
+
+
+@media screen  and (max-width:780px){
+    .cards{
+        display: grid;
+        grid-template-columns:  1fr 1fr ;
+        gap: 150px;
+     
+    } 
+ }
+ 
+ @media screen  and (max-width:580px){
+    .cards{
+        display: grid;
+        grid-template-columns:   1fr ;
+        gap: 150px;
+     
+    } 
+ }
+
+.cards div{
+    border: 1px solid gray;
+    padding: 3%;
+}
+
+
+.cards div img{
+    width: 170px;
+}
+
+
+
+
+#vero{
+padding: 4%;
+text-align: center;
+}
+
+
+#vero button{
+background-color: rgb(244, 55, 86);
+color: white;
+padding: 10px 14px;
+cursor: pointer;
+border-radius: 5%;
+border: 1px solid pink;
+
+}
+
+#vero button:hover{
+    color: rgb(16, 184, 147);
+}
+
+
+
+
+
+#mero{
+    background-color: rgb(245, 245, 245);
+   
+   
+  
+}
+.text3{
+    padding: 4%;
+    text-align: center;
+}
+
+.pic{
+    text-align: center;
+   padding-bottom: 4%;
+
+
+}
+.pic img{
+    border: 1px solid black;
+    border-radius: 100%;
+    width: 60px;
+    height:55px;
+   
+   
+   
+}
+
+#pero{
+    background-color: white;
+   
+   
+}
+
+.text4{
+    text-align: center;
+    padding: 3%;
+}
+
+
+.link2 ul,a{
+color: black;
+display: flex;
+ gap: 20px;
+justify-content: center;
+padding-bottom: 2%;
+}
+
+.link2 ul,a:hover{
+    color: rgb(243, 19, 93);
+    
+}
+
+.cd{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+    padding: 5%;
+
+
+}
+
+.cd img{
+    width: 100%;
+    height: 100%;
+}
+
+
+@media screen  and (max-width:780px){
+   .cd{
+    display: grid;
+    grid-template-columns:  1fr 1fr;
+    gap: 30px;
+    padding: 5%;
+   } 
+}
+
+
+@media screen  and (max-width:580px){
+    .cd{
+     display: grid;
+     grid-template-columns:  1fr;
+     gap: 30px;
+     padding: 5%;
+    } 
+    .cd img{
+        width: 100%;
+        height: 100%;
+    }
+ }
+
+
+ #card4{
+    background-color: rgb(245, 245, 245);
+    /* background-color: aqua; */
+  
+  
+
+ }
+
+ .text5{
+    text-align: center;
+    padding: 3%;
+ }
+
+
+ .cardlast{     
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+   padding: 2%;
+ 
+
+ }
+
+ .cardlast img{
+    width: 100%;
+
+ }
+
+ .b1{
+    border: 2px solid rgb(253, 253, 253);
+    margin: 6%;
+ }
+
+ @media screen and (max-width:780px){
+    .cardlast{
+     display: grid;
+   grid-template-columns:   1fr;
+   padding: 2%;
+ 
+    }
+    
+ }
+
+
+ #xero{
+   background-color: aqua;
+   /* height: 100vh; */
+ }
+
+ .tec{
+    text-align: center;
+    padding-top: 2%;
+ }
+
+ .Contact{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    padding-top: 2%;
+
+ }
+
+
+
+ @media screen and (max-width: 580px) {
+    .Contact {
+      display: block;
+    }
+  }
+
+
+  .form1{
+padding-top: 2%;
+
+  }
+
+
+
+
+.forma{
+display: grid;
+grid-template-columns: 1fr 1fr ;
+gap: 25px;
+height: 40px;
+padding-left: 4%;
+padding-right: 4%;
+}
+
+
+
+@media screen and (max-width: 580px) {
+    .forma{
+display: grid;
+grid-template-columns:  1fr 1fr;
+gap: 25px;
+height: 40px;
+padding-left: 4%;
+padding-right: 4%;
+}
+      
+    }
+  
+
+.formb{
+display: grid;
+grid-template-columns: 1fr;
+padding: 16px;
+height: 40px;
+padding-left: 4%;
+padding-right: 4%;
+}
+
+
+@media screen and (max-width: 580px) {
+    .formb{
+ display: grid;
+grid-template-columns: 1fr;
+padding: 16px;
+height: 40px;
+padding-left: 4%;
+padding-right: 4%;
+}
+}
+      
+    
+
+
+.formc{
+padding-left: 4%;
+padding-right: 4%;
+
+}
+
+.formc textarea{
+    width: 100%;
+}
+
+.btn4{
+    padding-top: 10px;
+   padding-bottom: 10px;
+    text-align: end;
+    padding-right: 4%;
+}
+
+.btn4 button{
+   background-color: rgb(230, 63, 119);
+    padding: 11px 15px;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    border: 1.5px solid rgb(230, 63, 119);
+  
+}
+
+.btn4 button:hover{
+    color: aquamarine;
+}
+
+
+/* -------------footer------------> */
+
+#footer{
+    color: white;
+   text-align: center;
+   padding-top: 3%;
+   padding-bottom: 2%;
+  background-color: rgb(65, 59, 52);
+}
+
+#footer i{
+   
+    padding: 8px 10px;
+    border: 1px solid rgb(27, 25, 25);
+    border-radius: 100%;
+    
+}
+
+
+#footer i:hover{
+background-color: transparent;
+color: rgb(222, 26, 26);
+cursor: pointer;
+}
+
+   
+   
+
+
+
+
